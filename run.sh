@@ -1,6 +1,6 @@
 # !bin/sh
 
-FILE_NAME=addTwoNumbers.java
+FILE_NAME=LongestPalinSub.java
 TARGET_NAME=${FILE_NAME%.*}
 SOURCE_DIR=./code
 TARGET_DIR=./bin
