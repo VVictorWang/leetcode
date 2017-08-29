@@ -83,8 +83,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 
 int main(){
 	struct ListNode * s1 = (struct ListNode *)malloc(sizeof(struct ListNode));
-	// s1->next = (struct ListNode *)malloc(sizeof(struct ListNode));
-	// s1->next->next = (struct ListNode *)malloc(sizeof(struct ListNode));
 	s1->val = 5;
 	// s1->next->val = 4;
 	// s1->next->next->val = 3;

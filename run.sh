@@ -1,6 +1,6 @@
 # !bin/sh
 
-FILE_NAME=LongestPalinSub.java
+FILE_NAME=ReverseInterger.c
 TARGET_NAME=${FILE_NAME%.*}
 SOURCE_DIR=./code
 TARGET_DIR=./bin
