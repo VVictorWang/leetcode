@@ -10,10 +10,6 @@ Notes: It is intended for this problem to be specified vaguely (ie, no given inp
 #include <stdio.h>
 #include <limits.h>
 
-int isIntergar(char c) {
-    return (c >= '0' && c <= '9') ? 1 : 0;
-}
-
 int myAtoi(char *str) {
     int result = 0, i = 0, flag = 0;
     while (str[i] == ' ')
@@ -24,7 +20,7 @@ int myAtoi(char *str) {
     } else if (str[i] == '+')
         i++;
     while (str[i] != '\0') {
-        if (isIntergar(str[i])) {
+        if ((str[i] >= '0' && str[i] <= '9')) {
             if (result >= (INT_MAX / 10 - (str[i] - '0') + 7)) {
                 if (flag && result > (INT_MAX / 10 - (str[i] - '0') + 7)) {
                     return INT_MIN;
