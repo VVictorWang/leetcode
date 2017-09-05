@@ -13,7 +13,7 @@
  Input: "cbbd"
  Output: "bb"
 * */
-public class LongestPalinSub {
+public class LongestPalinSub_5 {
 
     public static String longestPalindrome(String s) {
         int start = 0, end = 0;

@@ -1,6 +1,6 @@
 # !bin/sh
 
-FILE_NAME=romanToInt.c
+FILE_NAME=twoSum_1.c
 TARGET_NAME=${FILE_NAME%.*}
 SOURCE_DIR=./code
 TARGET_DIR=./bin

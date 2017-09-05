@@ -13,7 +13,7 @@ Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer 
  "pwke" is a subsequence and not a substring.
 
 */
-public class LongestSubstring {
+public class LongestSubstring_3 {
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
         if (s.equals("")) {

@@ -15,7 +15,7 @@ class ListNode {
         next = null;
     }
 }
-public class addTwoNumbers {
+public class addTwoNumbers_2 {
     public  static ListNode addtwoNumbers(ListNode l1, ListNode l2) {
         int k;
         boolean flag = false;

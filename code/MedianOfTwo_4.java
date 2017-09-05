@@ -7,7 +7,7 @@
 *The median is 2.0
 */
 
-public class MedianOfTwo {
+public class MedianOfTwo_4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] temp = new int[nums1.length + nums2.length];
         int i = 0, j = 0, k = 0;
