@@ -22,12 +22,12 @@ import java.util.List;
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(nums);
+        Arrays.sort(nums); //convert the array to a sorted array
         for (int i = 0; i + 2 < nums.length; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) {              // skip same result
+            if (i > 0 && nums[i] == nums[i - 1]) {      // skip same result
                 continue;
             }
-            int j = i + 1, k = nums.length - 1;
+            int j = i + 1, k = nums.length - 1; 
             int target = -nums[i];
             while (j < k) {
                 if (nums[j] + nums[k] == target) {
