@@ -4,7 +4,7 @@ import java.util.List;
 
 public class LetterCombination {
 
-  public  List<String> letterCombinations(String digits) {
+  public static List<String> letterCombinations(String digits) {
     String[] DIGITS2CHAR = {"",    "",    "abc",  "def", "ghi",
                             "jkl", "mno", "pqrs", "tuv", "wxyz"};
     List<String> prev = new ArrayList<>();
@@ -21,6 +21,7 @@ public class LetterCombination {
       }
       prev = newList;
     }
+    prev.remove("");
     return prev;
   }
 
